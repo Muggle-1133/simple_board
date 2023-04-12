@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR&display=swap');
+.lists_box {
+	margin-top: 100px;
+	font-family: 'IBM Plex Sans KR', sans-serif;
+}
+.table-container .title {
+	background-color: #4788d2;
+	height: 45px;
+	font-size: 19px;
+	font-weight:bold;
+	text-align: center;
+	color: #24262B;
+	padding: 0;
+	margin: 0;
+}
+.table-container {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.table-container > table {  
+	border-left: 1px solid  #E2E2E2;
+	border-right: 1px solid  #E2E2E2;
+	border-bottom: 1px solid  #E2E2E2;
+	border-top: none; 
+	width: 85%;
+	border-collapse: collapse;
+	color: #4B4C4F;
+}
+
+.table-container > table th {
+	padding: 8px 0px;
+	border-right:none;
+	border-left:none;
+	border-top:none;
+	border-bottom: 1px solid #C1C1C1;
+	
+}
+.table-container > table > thead > tr > th:nth-child(1) {
+	width: 100px;
+}
+.table-container > table > thead > tr > th:nth-child(2) {
+	width: 550px;
+}
+.table-container > table > thead > tr > th:nth-child(3),
+.table-container > table > thead > tr > th:nth-child(4) {
+	width: 250px;
+}
+.table-container > table > tbody > tr > .no_writing {
+	text-align: center; 
+	height: 38px;
+	font-size: 17px;
+}
+.table_container > table td {
+	padding: 9px 0px;
+	border-right:none;
+	border-left:none;
+	border-top:none;
+	border-bottom: 1px solid #B6B6B6;
+	background-color: #f7f7f7;
+	color: #2a2a2a;
+	text-align: center;
+}
+body > section > table > tbody > tr > td:nth-child(2) > a{
+	color: #2a2a2a;
+}
+body > section > table > tbody > tr > td:nth-child(2) > a:hover {
+	text-decoration: underline;
+}

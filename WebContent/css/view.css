@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR&display=swap');
+input, select, textarea {
+	outline:none;
+}
+.container {
+	height: 120vh;
+	display: flex;
+	justify-content: center;
+}
+.container .row{
+	margin-top: 80px;
+	font-family: 'IBM Plex Sans KR', sans-serif;
+	padding: 0;
+}
+
+.container table {
+	background-color:#F3F3F3;
+	border-radius: 7px;
+	outline: none;
+	border-collapse:collapse;
+}
+.container table thead th{
+	padding: 14px 0px;
+	font-size: 21px;
+	border-bottom: 3px solid #4788d2;
+	border-top: none;
+	border-left: none;
+	color: #242424
+}
+.container table tbody tr:not(:last-child) {
+	border-bottom: 1px solid #D2D2D2;
+}
+.container table tbody .writing_title {
+	display: flex;
+    align-items: center;
+}
+.container table tbody .writing_title .td1 {
+	width: 180px;
+	display: inline-block;
+	text-align: center;
+	font-weight: bold;
+	color: #303030;
+}
+
+.container table tbody .writing_title td {
+	width: 910px;
+}
+.container table tbody .writing_writer {
+	display: flex;
+    align-items: center;
+}
+.container table tbody .writing_writer .td1{
+	width: 180px;
+	display: inline-block;
+	text-align: center;
+	font-weight: bold;
+	color: #303030;
+}
+.container table tbody .writing_writer td {
+	width: 910px;
+}
+.container table tbody .writing_date {
+	display: flex;
+    align-items: center;
+}
+.container table tbody .writing_date .td1 {
+	width: 180px;
+	display: inline-block;
+	text-align: center;
+	font-weight: bold;
+	color: #303030;
+}
+.container table tbody .writing_date td {
+	width: 920px;
+}
+.container table tbody .writing_content {
+	display: flex;
+    align-items: center;
+}
+.container table tbody .writing_content .td1 {
+	width: 180px;
+	display: inline-block;
+	text-align: center;
+	font-weight: bold;
+	color: #303030;
+}
+.container table tbody .writing_content td {
+	width: 910px;
+	padding: 15px 0px;
+}
+#fileDown:hover {
+	text-decoration: underline;
+}
+.container table tbody .writing_uploadFile .td1 {
+	width: 180px;
+	display: inline-block;
+	text-align: center;
+	font-weight: bold;
+	color: #303030;
+}
+
+.container table tbody .writing_uploadFile td {
+	width: 920px;
+}
+.btn {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	width: 100%;
+	height: 70px;
+}
+.btn .list_btn, .update_btn {
+	font-family: 'IBM Plex Sans KR', sans-serif;
+	font-weight: bold;
+	color: #4347C6;
+	padding: 9px 20px;
+	border: none;
+	background-color: #CDDAFB;
+	border-radius: 4px;
+	font-size: 16px;
+	transition: 0.2s;
+}
+.btn .update_btn,
+.btn .delete_btn {
+	margin-left: 11px;
+}
+.btn .delete_btn {
+	font-family: 'IBM Plex Sans KR', sans-serif;
+	font-weight: bold;
+	color: #434343;
+	padding: 9px 20px;
+	border: none;
+	background-color: #C9CAD1;
+	border-radius: 4px;
+	font-size: 16px;
+	transition: 0.2s;
+}
+.btn .list_btn:hover,
+.btn .update_btn:hover,
+.btn .delete_btn:hover {
+	cursor: pointer;
+}
+.btn .list_btn:hover,
+.btn .update_btn:hover {
+	background-color: #4F52C8;
+	color: #F2F2F2;
+}
+.btn .delete_btn:hover {
+	background-color: #48494F;
+	color: #E3E3E3;
+}

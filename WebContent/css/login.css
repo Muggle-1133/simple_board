@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR&display=swap");
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #222;
+  height: 86vh;
+}
+a {
+  text-decoration: none;
+  color: #222;
+}
+input,
+select {
+  outline: none;
+}
+
+/**** section ****/
+.login {
+  width: 530px;
+  background-color: #fafafa;
+  border-radius: 5px;
+  padding: 15px 25px 25px 25px;
+  box-sizing: border-box;
+  box-shadow: 0 0 25px rgba(54, 54, 54, 0.15);
+  font-family: "IBM Plex Sans KR", sans-serif;
+}
+.login .title {
+  font-weight: bold;
+  font-size: 30px;
+  height: 68px;
+  text-align: center;
+  color: #3974bb;
+  margin-bottom: 10px;
+}
+.login span:not(.title) {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+  margin-top: 20px;
+  margin-left: 4px;
+  background-color: transparent;
+  color: #3974bb;
+}
+.login input[type="text"]::placeholder,
+.login input[type="password"]::placeholder {
+  color: #aeaeae;
+}
+.login input[type="text"],
+.login input[type="password"] {
+  width: 100%;
+  padding: 15px 5px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid #a3c3ea;
+  padding-left: 35px;
+  background-color: #f1f4f9;
+  color: #212121;
+}
+.login input[type="text"]:hover,
+.login input[type="password"]:hover {
+  border: 1px solid #3b8ce3;
+  box-shadow: 0 0 5px #3b8ce3;
+}
+.login input[type="text"]:focus,
+.login input[type="password"]:focus {
+  border: 1px solid #3b8ce3;
+  box-shadow: 0 0 5px #3b8ce3;
+}
+
+.login input[type="text"]:focus::placeholder,
+.login input[type="password"]:focus::placeholder {
+  visibility: hidden;
+}
+.login input[type="text"] {
+  background-image: url("../img/user.png");
+  background-size: 18px;
+  background-repeat: no-repeat;
+  background-position: left 10px center;
+}
+.login input[type="password"] {
+  background-image: url("../img/padlock.png");
+  background-size: 22px;
+  background-repeat: no-repeat;
+  background-position: left 6px center;
+}
+.login p {
+  /* 자식 요소에 float를 사용하면 부모 요소는 높이 값을 잃기 때문에 overflow: hidden을 사용*/
+  overflow: hidden;
+  background-color: transparent;
+}
+.login p label {
+  float: left;
+  cursor: pointer;
+  background-color: transparent;
+  color: #2e2e2e;
+}
+.login p a {
+  float: right;
+  background-color: transparent;
+  color: #2e2e2e;
+}
+.login p a:hover {
+  text-decoration: underline;
+}
+.login input[type="submit"] {
+  background-color: #2270cf;
+  width: 100%;
+  padding: 15px;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  margin-top: 30px;
+}
+.login input[type="submit"]:hover {
+  background-color: #1a5fb2;
+}

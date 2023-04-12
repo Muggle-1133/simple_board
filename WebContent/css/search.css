@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR&display=swap');
+select, input {
+	outline: none;
+	font-family: 'IBM Plex Sans KR', sans-serif;
+}
+.search_form {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.search_field{
+	height: 30vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;	
+}
+.search_field select {
+  appearance: none;
+  -moz-appearance: none; /* Firefox */ 
+  -webkit-appearance: none; /* Safari and Chrome */
+  width: 120px;
+  padding: 2px 6px;
+  background: url(../img/down_icon.png) no-repeat 99% 40%;
+  background-color: #FDFDFD;
+  background-size: 20px;
+  border: 1px solid #ABAFB1;
+  border-radius: 2px;
+  margin-right: 3px;
+}
+/* IE 기본 스타일 제거 */
+.search_field select::-ms-expand{
+	display: none; /* IE 10, 11 */
+}
+
+.search_field  #selectInput {
+	width: 172px;
+	padding: 2px 0;
+	border: 1px solid #ABAFB1;
+  	border-radius: 2px;
+  	margin-right: 3px;
+}
+.search_field .search_btn {
+	font-size: 13px;
+	font-weight: bold;
+	background-color: #FDFDFD;
+	padding: 0 10px;
+	height: 26px;
+	outline: none;
+	border: 1px solid #ABAFB1;
+	border-radius: 2px;
+}
+.search_field .search_btn:hover {
+	cursor: pointer;
+	color: #545454;
+}

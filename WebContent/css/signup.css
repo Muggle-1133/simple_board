@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 110vh;
+  font-family: "IBM Plex Sans KR", sans-serif;
+}
+
+.signup_form {
+  width: 620px;
+  height: 694px;
+  background-color: #fafafa;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  padding: 25px 25px 20px 30px;
+  box-sizing: border-box;
+  margin-top: -25px;
+  box-shadow: 0 0 10px rgba(54, 54, 54, 0.15);
+  color: #3974bb;
+}
+
+.signup_form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.signup_form label i {
+  color: rgb(235, 47, 109);
+  margin-right: 5px;
+  margin-left: 3px;
+  font-size: 13px;
+}
+.signup_form h2 {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 55px;
+}
+
+.signup_form span {
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 14px;
+}
+.id_container {
+  display: flex;
+}
+
+.id_container .check_btn {
+  height: 34px;
+  border: none;
+  border-radius: 5px;
+  background-color: #a0cffa;
+  margin-left: 5px;
+  cursor: pointer;
+  font-family: "IBM Plex Sans KR", sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+}
+.signup_form input[type="text"] {
+  border: 1px solid #a3c3ea;
+  border-radius: 5px;
+  background-color: #f1f4f9;
+  padding: 8px 7px;
+  width: 492px;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+}
+.signup_form #checkID {
+  margin: -5px 0px 13px 0px;
+  font-weight: bold;
+}
+.signup_form #checkID > #checkID_icon {
+  margin-right: 3px;
+}
+.pw_container {
+  position: relative;
+}
+.pw_container i {
+  position: absolute;
+  left: 93%;
+  top: 16%;
+}
+.signup_form #pwd1,
+.signup_form #pwd2,
+.signup_form input[type="email"] {
+  border: 1px solid #a3c3ea;
+  border-radius: 5px;
+  background-color: #f1f4f9;
+  padding: 8px 7px;
+  width: 557px;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+  display: inline-block;
+}
+
+.signup_form input[type="text"]:hover,
+.signup_form #pwd1:hover,
+.signup_form #pwd2:hover,
+.signup_form input[type="email"]:hover {
+  border: 1px solid #3b8ce3;
+  box-shadow: 0 0 5px #3b8ce3;
+}
+
+.signup_form input[type="text"]:focus,
+.signup_form #pwd1:focus,
+.signup_form #pwd2:focus,
+.signup_form input[type="email"]:focus {
+  border: 1px solid #3b8ce3;
+  box-shadow: 0 0 5px #3b8ce3;
+  outline: none;
+}
+
+.signup_form input[type="text"]:focus::placeholder,
+.signup_form #pwd1:focus::placeholder .signup_form #pwd2:focus::placeholder,
+.signup_form input[type="email"]:focus::placeholder {
+  visibility: hidden;
+}
+
+.signup_form #signup {
+  background-color: #2270cf;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  display: block;
+  margin: 55px 5px 11px 2px;
+  padding: 15px 237px;
+  font-size: 23px;
+  font-weight: bold;
+  cursor: pointer;
+  font-family: "IBM Plex Sans KR", sans-serif;
+}
+
+.signup_form #signup:hover {
+  background-color: #1a5fb2;
+}
+
+.signup_form p {
+  font-size: 15px;
+  margin-left: 5px;
+}
+
+.signup_form p i {
+  color: rgb(235, 47, 109);
+}
+
+.signup_form #id_check {
+  font-size: 14px;
+  margin: -8px 0px 10px 0px;
+}
+.alert-success,
+.alert-danger {
+  font-size: 15px;
+  font-weight: bold;
+  width: 260px;
+  height: 28px;
+  line-height: 26px;
+  border: none;
+  padding-left: 2px;
+  box-sizing: border-box;
+  margin-bottom: 18px;
+  margin-top: -3px;
+}
+
+.alert-success {
+  color: #5050ff;
+}
+
+.alert-danger {
+  color: red;
+}
+.signup_form #text {
+  color: #292929;
+}
