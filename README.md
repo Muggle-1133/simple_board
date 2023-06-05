@@ -26,3 +26,4 @@
 ![ezgif com-video-to-gif (1)](https://github.com/Muggle-1133/simple_board/assets/97649633/cbc5582c-ca5d-4eb5-9a8b-6914b128996b)
 
 ### 3. 게시판 글 수정하기/삭제하기
+![ezgif com-video-to-gif (2)](https://github.com/Muggle-1133/simple_board/assets/97649633/ef5b3670-3bf2-432b-bc4d-67b914dc6dec)
