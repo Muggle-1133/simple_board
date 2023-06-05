@@ -21,9 +21,15 @@
 ## 3. 기능 구현
 ### 1. 회원가입/로그인
 ![ezgif com-video-to-gif](https://github.com/Muggle-1133/simple_board/assets/97649633/9c018309-a5bf-4fd7-bad0-03211a9f92f1)
+- 회원가입 시 ajax로 아이디 중복 검사
+- 비밀번호, 비밀번호 확인 일치 검사
+- 로그인 시 아이디 저장을 체크하면 쿠키 저장, 체크 해제 시 쿠키 삭제
 
 ### 2. 게시판 글쓰기/조회하기/읽기
 ![ezgif com-video-to-gif (1)](https://github.com/Muggle-1133/simple_board/assets/97649633/cbc5582c-ca5d-4eb5-9a8b-6914b128996b)
+- 로그인하지 않은 사용자는 글 작성/읽기/수정/삭제 제한
+- 검색란에 제목 or 글쓴이로 작성한 글 조회
 
 ### 3. 게시판 글 수정하기/삭제하기
 ![ezgif com-video-to-gif (2)](https://github.com/Muggle-1133/simple_board/assets/97649633/ef5b3670-3bf2-432b-bc4d-67b914dc6dec)
+- 게시판 글을 작성한 사용자 본인만 글을 수정 및 삭제하도록 제한
