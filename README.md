@@ -11,7 +11,7 @@
 > 기획 및 제작: 양수연
 > 분류: 개인 프로젝트
 > 제작 기간: 2022년 07월 ~ 08월
-> 주요 기능: 게시판 글쓰기/읽기/조회하기/삭제하기, 회원가입/로그인/로그아웃
+> 주요 기능: 게시판 글쓰기/읽기/조회하기/수정하기/삭제하기, 회원가입/로그인/로그아웃
 > 사용 기술: JSP, HTML, CSS, javascript, jquery
 > 문의: flyyangsy@gmail.com
 
@@ -20,5 +20,9 @@
 
 ## 3. 기능 구현
 ### 1. 회원가입/로그인
-![ezgif com-video-to-gif](https://github.com/Muggle-1133/simple_board/assets/97649633/c9018745-81ca-4ad9-8527-da57d3df7a99)
+![ezgif com-video-to-gif](https://github.com/Muggle-1133/simple_board/assets/97649633/9c018309-a5bf-4fd7-bad0-03211a9f92f1)
 
+### 2. 게시판 글쓰기/조회하기/읽기
+![ezgif com-video-to-gif (1)](https://github.com/Muggle-1133/simple_board/assets/97649633/cbc5582c-ca5d-4eb5-9a8b-6914b128996b)
+
+### 3. 게시판 글 수정하기/삭제하기
