@@ -13,8 +13,8 @@ public class AdminBoardDAO {
 	public AdminBoardDAO() {
 		try {
 			String dbURL = "jdbc:mariadb://localhost:3306/SecureCoding";
-			String dbID = "root";
-			String dbPass = "ycdc2021!";
+			String dbID = "you're id";
+			String dbPass = "you're password";
 			Class.forName("org.mariadb.jdbc.Driver");
 			conn = DriverManager.getConnection(dbURL, dbID, dbPass);
 		} catch(Exception e) {
