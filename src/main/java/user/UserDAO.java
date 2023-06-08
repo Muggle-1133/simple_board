@@ -13,8 +13,8 @@ public class UserDAO {
 	public UserDAO() {
 		try {
 			String dbURL = "jdbc:mariadb://localhost:3306/SecureCoding";
-			String dbID = "root";
-			String dbPassword = "ycdc2021!";
+			String dbID = "you're id";
+			String dbPassword = "you're password";
 			Class.forName("org.mariadb.jdbc.Driver");
 			conn = DriverManager.getConnection(dbURL, dbID, dbPassword);
 			
